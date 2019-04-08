@@ -10,10 +10,19 @@ import Typography from '@material-ui/core/Typography';
 import image1 from '../img1.PNG';
 import image2 from '../ss2.png';
 import image3 from '../ss3.jpg';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+
+const theme1 = createMuiTheme({
+    palette: {
+      primary: {main: 'rgb(0,90,0)'},
+    },
+});
 
 function Projects(props) {
   return (
       <div className="Paper">
+      <MuiThemeProvider theme={theme1}>
+      
         <Card className="card1">
         <CardActionArea className="cardaction">
         <CardMedia
@@ -47,8 +56,8 @@ function Projects(props) {
       </CardActionArea>
       <CardActions style={{bottom: 0, height: 40}}>
         <div className="buttonCont">
-            <Button variant="contained" color="primary" style={{marginRight: 10}}>
-            Demo
+            <Button href="https://www.fuelrequest.ga" target="_blank" variant="contained" color="primary" style={{marginRight: 10}}>
+            Live
             </Button>
             <Button variant="contained" color="primary">
             Github
@@ -136,6 +145,7 @@ function Projects(props) {
         </div>
       </CardActions>
     </Card>
+    </MuiThemeProvider>
       </div>  
   );
 }
