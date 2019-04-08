@@ -2,7 +2,7 @@
     width: 100rem;
     height: 60rem;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,28 +17,28 @@
 
 .card1{
     max-width: 300px;
-    height: 500px;
+    height: 80%;
     transform: translateX(-200rem);
     animation: slideIn .3s forwards;
     animation-delay: 0.6s;
 }
 .card2{
     max-width: 300px;
-    height: 500px;
+    height: 80%;
     transform: translateX(-200rem);
     animation: slideIn .3s forwards;
     animation-delay: 0.3s;
 }
 .card3{
     max-width: 300px;
-    height: 500px;
+    height: 80%;
     transform: translateX(-200rem);
     animation: slideIn .3s forwards;
     animation-delay: 0s;
 }
 
 .cardaction{
-    height: 460px;
+    height: 91%;
     overflow: hidden;
 }
 
