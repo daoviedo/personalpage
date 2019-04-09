@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import TopBar from './components/TopBar';
 import Projects from './components/Projects';
 import './Homepage.css';
+import Resume from './components/Resume';
 
 class Homepage extends Component {
     constructor(props){
@@ -18,7 +19,7 @@ class Homepage extends Component {
             case 1:
                 return <Projects/>;
             case 2:
-                return <div/>;
+                return <Resume/>;
             case 3:
             return <div/>;
             case 4:

@@ -24,20 +24,18 @@ function Projects(props) {
       <MuiThemeProvider theme={theme1}>
       
         <Card className="card1">
-        <CardActionArea className="cardaction">
+        <CardActionArea disabled className="cardaction">
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
           height="180"
           image={image1}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2" style={{fontSize: '160%'}}>
             Fuel Request
           </Typography>
           <Typography component="p" style={{fontSize: '120%'}}>
-            A simulated oil distribution company that creates oil qoutes which factors in competitor prices, distance, gallons, purchase history, etc.
+            A simulated oil distribution company that creates oil quotes which factors in competitor prices, distance, gallons, purchase history, etc.
           </Typography>
           <ul className="text">Tech Used:
             </ul>
@@ -59,7 +57,7 @@ function Projects(props) {
             <Button href="https://www.fuelrequest.ga" target="_blank" variant="contained" color="primary" style={{marginRight: 10}}>
             Live
             </Button>
-            <Button variant="contained" color="primary">
+            <Button disabled variant="contained" color="primary">
             Github
             </Button>
         </div>
@@ -67,13 +65,11 @@ function Projects(props) {
     </Card>
 
     <Card className="card2">
-        <CardActionArea className="cardaction">
+        <CardActionArea disabled className="cardaction">
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
           height="180"
           image={image2}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2" style={{fontSize: '160%'}}>
@@ -95,10 +91,10 @@ function Projects(props) {
       </CardActionArea>
       <CardActions style={{bottom: 0}}>
         <div className="buttonCont">
-            <Button variant="contained" color="primary" style={{marginRight: 10}}>
+            <Button disabled variant="contained" color="primary" style={{marginRight: 10}}>
             Demo
             </Button>
-            <Button variant="contained" color="primary">
+            <Button disabled variant="contained" color="primary">
             Github
             </Button>
         </div>
@@ -106,13 +102,11 @@ function Projects(props) {
     </Card>
 
     <Card className="card3">
-        <CardActionArea className="cardaction">
+        <CardActionArea disabled className="cardaction">
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
           height="180"
           image={image3}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2" style={{fontSize: '160%'}}>
@@ -136,10 +130,10 @@ function Projects(props) {
       </CardActionArea>
       <CardActions style={{bottom: 0}}>
         <div className="buttonCont">
-            <Button variant="contained" color="primary" style={{marginRight: 10}}>
+            <Button disabled variant="contained" color="primary" style={{marginRight: 10}}>
             Demo
             </Button>
-            <Button variant="contained" color="primary">
+            <Button disabled variant="contained" color="primary">
             Github
             </Button>
         </div>

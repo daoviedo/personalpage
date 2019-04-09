@@ -1,0 +1,25 @@
+.div{
+    width: 35%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-200rem);
+    animation: slideIn .5s forwards;
+}
+
+.frame{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes slideIn{
+    from{
+
+    }
+    to{
+        transform: translateX(0);
+    }
+}
