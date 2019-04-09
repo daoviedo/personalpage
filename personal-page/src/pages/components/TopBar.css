@@ -123,10 +123,10 @@ nav ul li a:hover::after{
         justify-content: space-between;
         align-items: center;
         text-transform: uppercase;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
     .brand{
-        font-size: 1.4rem;
+        font-size: 1.7rem;
         font-weight: 300;
         transform: translateX(-100rem);
         animation: slideIn .5s forwards;
