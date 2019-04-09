@@ -46,10 +46,15 @@
 
 @media only screen and (max-width: 480px) {
     .div{
-        width: 100%;
+        width: 95%;
         height: 80vh;
         margin: auto;
         margin-top: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-200rem);
+        animation: slideIn .5s forwards;
     }
     .contact{
         max-width: 284px;
