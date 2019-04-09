@@ -114,22 +114,22 @@ nav ul li a:hover::after{
 
 @media only screen and (max-width: 480px) {
     .container{
-        width: 80%;
-        margin: 0 auto;
+        width: 90%;
+        margin: auto;
     }  
     .nav{
         padding-top: 5rem;
         display: block;
-        align-items: center;
         text-transform: uppercase;
-        font-size: 0.7rem;
+        font-size: .9rem;
     }
     .brand{
         font-size: 1.7rem;
         font-weight: 300;
         transform: translateX(-100rem);
         animation: slideIn .5s forwards;
-        margin-bottom: 12px;
+        margin-bottom: 16px;
+        margin-left: 7px;
     }
 }
 
