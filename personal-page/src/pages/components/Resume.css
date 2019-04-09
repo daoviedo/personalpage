@@ -50,8 +50,6 @@
         max-height: 600px;
         margin: auto;
         margin-top: 15%;
-        transform: translateX(-200rem);
-        animation: slideIn .5s forwards;
     }
     .contact{
         max-width: 284px;
