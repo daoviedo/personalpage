@@ -46,13 +46,10 @@
 
 @media only screen and (max-width: 480px) {
     .div{
-        width: 85%;
-        height: 60vh;
+        width: 75vw;
+        height: 70vh;
         margin: auto;
         margin-top: 15%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         transform: translateX(-200rem);
         animation: slideIn .5s forwards;
     }
