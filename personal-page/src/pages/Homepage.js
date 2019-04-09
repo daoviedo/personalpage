@@ -22,9 +22,9 @@ class Homepage extends Component {
             case 2:
                 return <Resume/>;
             case 3:
-            return <div/>;
+                return <div/>;
             case 4:
-            return <Contact/>;
+                return <Contact/>;
             default:
                 throw new Error('Unknown step');
         }

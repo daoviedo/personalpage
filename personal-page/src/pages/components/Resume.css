@@ -38,9 +38,27 @@
 .pic{
     width: 20%;
     height: 20%;
-    color: #eee;
 }
 
 .aclass{
     padding: 5%;
+}
+
+@media only screen and (max-width: 480px) {
+    .div{
+        width: 100%;
+        height: 80vh;
+        margin: auto;
+        margin-top: 3%;
+    }
+    .contact{
+        max-width: 284px;
+        height: auto;
+        margin: auto;
+        margin-top: 30%;
+        text-align: center;
+        align-items: center;
+        transform: translateX(200rem);
+        animation: slideIn .3s forwards;
+    }
 }

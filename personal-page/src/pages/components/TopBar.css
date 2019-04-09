@@ -112,6 +112,21 @@ nav ul li a:hover::after{
     transform: scaleX(1);
 }
 
+@media only screen and (max-width: 480px) {
+    .brand{
+        font-size: 2rem;
+        font-weight: 300;
+        transform: translateX(-100rem);
+        animation: slideIn .5s forwards;
+    }
+    .li{
+        font-size: 0.7rem;
+        list-style: none;
+        transform: translateX(100rem);
+        animation: slideIn .5s forwards;
+    }
+}
+
 @keyframes slideIn{
     from{
 
