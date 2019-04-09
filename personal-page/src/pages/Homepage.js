@@ -3,6 +3,7 @@ import TopBar from './components/TopBar';
 import Projects from './components/Projects';
 import './Homepage.css';
 import Resume from './components/Resume';
+import Contact from './components/Contact';
 
 class Homepage extends Component {
     constructor(props){
@@ -23,7 +24,7 @@ class Homepage extends Component {
             case 3:
             return <div/>;
             case 4:
-            return <div/>;
+            return <Contact/>;
             default:
                 throw new Error('Unknown step');
         }
