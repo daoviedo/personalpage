@@ -51,6 +51,10 @@
         margin-top: 20%;
         margin: auto;
     }
+    .frame{
+        width: 60%;
+        height: 60%;
+    }
     .contact{
         max-width: 284px;
         height: auto;
