@@ -121,7 +121,7 @@ nav ul li a:hover::after{
         padding-top: 5rem;
         display: block;
         text-transform: uppercase;
-        font-size: .9rem;
+        font-size: .8rem;
     }
     .brand{
         font-size: 1.7rem;

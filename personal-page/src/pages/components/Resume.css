@@ -2,12 +2,27 @@
     width: 35%;
     height: 80vh;
     margin: auto;
-    margin-top: 3%;
-    display: flex;
+    margin-top: 2%;
+    display: block;
     justify-content: center;
     align-items: center;
     transform: translateX(-200rem);
     animation: slideIn .4s forwards;
+}
+
+.res{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+h2 a{
+    color: #eee;
+    text-decoration: none!important;  
+}
+h2 a:hover{
+    color: #eee;
+    text-decoration: none!important;  
 }
 
 .frame{
