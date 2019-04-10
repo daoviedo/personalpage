@@ -114,14 +114,14 @@ nav ul li a:hover::after{
 
 @media only screen and (max-width: 480px) {
     .container{
-        width: 90%;
+        width: 94%;
         margin: auto;
     }  
     .nav{
         padding-top: 5rem;
         display: block;
         text-transform: uppercase;
-        font-size: .8rem;
+        font-size: .75rem;
     }
     .brand{
         font-size: 1.7rem;

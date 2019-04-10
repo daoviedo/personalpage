@@ -82,4 +82,7 @@ h2 a:hover{
         transform: translateX(200rem);
         animation: slideIn .3s forwards;
     }
+    .res{
+        margin-top: 25%;
+    }
 }
