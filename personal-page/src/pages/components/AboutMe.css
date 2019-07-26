@@ -1,0 +1,19 @@
+.AboutTitle{
+    transform: translateX(-200rem);
+    animation: slideIn .3s forwards;
+    animation-delay: 0s;
+}
+.AboutBody{
+    transform: translateX(200rem);
+    animation: slideIn .3s forwards;
+    animation-delay: 0.4s;
+}
+
+@keyframes slideIn{
+    from{
+
+    }
+    to{
+        transform: translateX(0);
+    }
+}

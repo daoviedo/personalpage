@@ -4,6 +4,7 @@ import Projects from './components/Projects';
 import './Homepage.css';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import AboutMe from './components/AboutMe';
 
 class Homepage extends Component {
     constructor(props){
@@ -22,7 +23,7 @@ class Homepage extends Component {
             case 2:
                 return <Resume/>;
             case 3:
-                return <div/>;
+                return <AboutMe/>;
             case 4:
                 return <Contact/>;
             default:
