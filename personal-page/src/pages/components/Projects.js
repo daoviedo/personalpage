@@ -31,7 +31,7 @@ function Projects(props) {
               image={image1}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2" style={{ fontSize: '160%' }}>
+              <Typography gutterBottom variant="h5" component="h2" style={{ fontSize: '160%', fontWeight: 600 }}>
                 Fuel Request
           </Typography>
               <Typography component="p" style={{ fontSize: '120%' }}>
@@ -72,7 +72,7 @@ function Projects(props) {
               image={image2}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2" style={{ fontSize: '160%' }}>
+              <Typography gutterBottom variant="h5" component="h2" style={{ fontSize: '160%', fontWeight: 600 }}>
                 Virtual ThemePark
           </Typography>
               <Typography component="p" style={{ fontSize: '120%' }}>
@@ -109,7 +109,7 @@ function Projects(props) {
               image={image3}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2" style={{ fontSize: '160%' }}>
+              <Typography gutterBottom variant="h5" component="h2" style={{ fontSize: '160%', fontWeight: 600 }}>
                 Personal Page
           </Typography>
               <Typography component="p" style={{ fontSize: '120%' }}>
