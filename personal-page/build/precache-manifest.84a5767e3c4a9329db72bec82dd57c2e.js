@@ -1,35 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "9db4fd1b6c5dda92fb97eb31af335f94",
-    "url": "/static/media/ss2.9db4fd1b.png"
+    "revision": "239814526e2e79cb64ed",
+    "url": "/static/css/main.e4921892.chunk.css"
   },
   {
-    "revision": "426ce2c2864581a709eb",
-    "url": "/static/css/main.1c44945e.chunk.css"
+    "revision": "239814526e2e79cb64ed",
+    "url": "/static/js/main.79caa5ea.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "c90f5a5402561da25d8d",
-    "url": "/static/js/2.bbed3dc8.chunk.js"
+    "revision": "a019bd7fa1b9e0f3ceec",
+    "url": "/static/js/2.17cadb12.chunk.js"
   },
   {
-    "revision": "1535f39dcecc464efe9274392e7e2c70",
-    "url": "/static/media/Daniel_Oviedo_Resume.1535f39d.pdf"
+    "revision": "19d7663f6832235848c085a879a86081",
+    "url": "/static/media/Daniel_Oviedo_Resume.19d7663f.pdf"
   },
   {
     "revision": "46dfcb04215dbebb308e1337daec325f",
     "url": "/static/media/img1.46dfcb04.PNG"
   },
   {
-    "revision": "426ce2c2864581a709eb",
-    "url": "/static/js/main.9fd3b960.chunk.js"
+    "revision": "7901c1b66d89cb42a9b614d752515f31",
+    "url": "/static/media/ss4.7901c1b6.png"
   },
   {
-    "revision": "0b2371ba92755640be6f4ec69b84f496",
-    "url": "/static/media/ss3.0b2371ba.jpg"
+    "revision": "5ec36205a64913b742fead699bd19316",
+    "url": "/static/media/ss5.5ec36205.png"
   },
   {
     "revision": "acdac6608e735a70e2ea34d1eec789f9",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/img.00051dbb.jpg"
   },
   {
-    "revision": "f06a81e8f272223dbe2520f7af87fdba",
+    "revision": "4266f17a9a9940a1e04b0395607399f3",
     "url": "/index.html"
   }
 ];
