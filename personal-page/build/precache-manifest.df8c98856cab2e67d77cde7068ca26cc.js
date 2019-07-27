@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "239814526e2e79cb64ed",
+    "revision": "aee7c4fbd6ad8a8ab9b1",
     "url": "/static/css/main.e4921892.chunk.css"
   },
   {
-    "revision": "239814526e2e79cb64ed",
-    "url": "/static/js/main.79caa5ea.chunk.js"
+    "revision": "aee7c4fbd6ad8a8ab9b1",
+    "url": "/static/js/main.07f9f1bd.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/js/2.17cadb12.chunk.js"
   },
   {
-    "revision": "19d7663f6832235848c085a879a86081",
-    "url": "/static/media/Daniel_Oviedo_Resume.19d7663f.pdf"
+    "revision": "3121d1eb37cb5157eb7d7860934fa42a",
+    "url": "/static/media/Daniel_Oviedo_Resume.3121d1eb.pdf"
   },
   {
     "revision": "46dfcb04215dbebb308e1337daec325f",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/img.00051dbb.jpg"
   },
   {
-    "revision": "4266f17a9a9940a1e04b0395607399f3",
+    "revision": "8f2744df3bb2ec68e7f8bfc185df341e",
     "url": "/index.html"
   }
 ];
