@@ -57,7 +57,7 @@ function Projects(props) {
               <Button href="https://www.fuelrequest.ga" target="_blank" variant="contained" color="primary" style={{ marginRight: 10 }}>
                 Live
             </Button>
-              <Button href="https://www.fuelrequest.ga" target="_blank" variant="contained" color="primary">
+              <Button disabled href="https://www.fuelrequest.ga" target="_blank" variant="contained" color="primary">
                 Github
             </Button>
             </div>
@@ -92,7 +92,7 @@ function Projects(props) {
           <CardActions style={{ bottom: 0 }}>
             <div className="buttonCont">
               <Button href="http://www.themepark.ga" target="_blank" variant="contained" color="primary" style={{ marginRight: 10 }}>
-                Demo
+                Live
             </Button>
               <Button href="https://github.com/daoviedo/themeparkg11" target="_blank" variant="contained" color="primary">
                 Github
@@ -131,7 +131,7 @@ function Projects(props) {
           <CardActions style={{ bottom: 0 }}>
             <div className="buttonCont">
               <Button href="https://www.daniel-oviedo.com" target="_blank" variant="contained" color="primary" style={{ marginRight: 10 }}>
-                Demo
+                Live
             </Button>
               <Button href="https://github.com/daoviedo/personalpage" target="_blank" variant="contained" color="primary">
                 Github
