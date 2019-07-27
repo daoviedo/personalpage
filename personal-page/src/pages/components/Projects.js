@@ -57,7 +57,7 @@ function Projects(props) {
               <Button href="https://www.fuelrequest.ga" target="_blank" variant="contained" color="primary" style={{ marginRight: 10 }}>
                 Live
             </Button>
-              <Button disabled href="https://www.fuelrequest.ga" target="_blank" variant="contained" color="primary">
+              <Button href="https://github.com/daoviedo/fuel-quote-web-app" target="_blank" variant="contained" color="primary">
                 Github
             </Button>
             </div>
