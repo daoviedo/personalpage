@@ -23,7 +23,7 @@ class Homepage extends Component {
             case 2:
                 return <Resume/>;
             case 3:
-                return <AboutMe/>;
+                return <AboutMe changePage={this.changePage}/>;
             case 4:
                 return <Contact/>;
             default:
