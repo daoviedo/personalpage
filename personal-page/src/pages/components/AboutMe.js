@@ -4,7 +4,7 @@ import './AboutMe.css';
 
 function AboutMe(props) {
     return (
-        <div style={{margin: 'auto', marginTop: 100, maxWidth: 800}}>
+        <div style={{margin: 'auto', marginTop: 100, maxWidth: 800, height: '400px'}}>
             <Typography className="AboutTitle" gutterBottom variant="h5" component="h2" style={{ fontSize: '2.7rem', fontWeight: 300, color: 'white' }}>
                 About Me
             </Typography>
